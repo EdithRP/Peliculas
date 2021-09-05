@@ -1,9 +1,69 @@
-p {color:#757575;
-    font-size: 18px; font-family:Georgia;
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
 }
-h1 {color:black;
-    font-size: 24px; font-family:Arial;
+
+#fondoPrincipal {
+    background-image: url(https://www.freejpg.com.ar/image-900/fc/fc02/F100005451-carbon_fuego.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
 }
-body {
-   background-color:#f3f4f5;
+
+#TituloPlatos {
+    color:white;
+    display: flex;
+    width: 100%
+    
 }
+
+#titulo h1{
+    float: right;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    margin:0;
+    padding: 50px;;
+    width: 100%;
+    font-family: 'Allison', cursive;
+    font-size: xx-large;
+    color: white;
+    background-color:black;
+    line-height: 1,5;
+    
+}
+
+.menu .lista{
+    display: inline-block;
+}
+
+.lista-r{
+    float: right;
+}
+
+.lista a{
+    text-decoration: none;
+    color:whitesmoke;
+    padding: 15px 60px;
+    display:block;
+
+}
+.lista a:hover{
+    background-color: chocolate;
+}
+
+.link a{
+    text-decoration: none;
+    color:whitesmoke;
+    padding: 15px 60px;
+    display:block;
+}
+
