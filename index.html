@@ -6,55 +6,129 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/styles.css">
-  <title>Restaurante el Horno</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <title>Peliculas para ti</title>
 
 </head>
 
 <body class="menu">
+  <header id="header">
+    <nav class="containernav">
+      <ul>
+        <li Class="lista"><a href="#Logo">Logo</a></li>
+        <li Class="lista"><a href="#Inicio" onclick="mostrar2()">Inicio</a></li>
+        <li Class="lista lista-r"><a href="#Registro" onclick="mostrar()">Registro</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="contenedor">
+    <section id="Inicio" class="fondoPrincipal">
+      <h1>Peliculas para ti</h1>
+      <div class="contenedor-principal">
+        <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+        <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+        <div class="container-one">
+          <div id="slide1"
+            style="background-image: url('https://rcdn.rolloid.net/uploads/2018/06/25-peliculas-de-gran-exito-que-deberias-ver-segun-el-ano-en-que-naciste-1528119393.jpg')">
+          </div>
+          <div id="slide2"
+            style="background-image: url('https://rcdn.rolloid.net/uploads/2018/06/25-peliculas-de-gran-exito-que-deberias-ver-segun-el-ano-en-que-naciste-1528119504.jpg')">
+          </div>
+          <div id="slide3"
+            style="background-image: url('https://espectadores.net/wp-content/uploads/2017/05/mejores-peliculas-independientes-call-me.jpg')">
+          </div>
+          <div id="slide4"
+            style="background-image: url('https://upload.wikimedia.org/wikipedia/tr/3/31/The-da-vinci-code-hanks.jpg')">
 
-<section id="fondoPrincipal">
-    <header id="header">
-      <nav class="containernav">
-        <ul>
-          <li Class="lista"><a href="Inicio" >Inicio</a></li>
-          <li Class="lista"><a href="MenuDia">Quienes Somos</a></li>
-          <li Class="lista lista-r"><a href="contacto">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
+          </div>
+          <div id="slide5"
+            style="background-image: url('https://th.bing.com/th/id/OIP.outtbOTY0QMWao9dGLSmJgHaLH?pid=ImgDet&rs=1')">
+          </div>
+          <div id="slide6"
+            style="background-image: url('https://th.bing.com/th/id/R.e19b8a1995649bb911f9ac7ecaafcf8d?rik=gWYeSMlXJmsmSA&pid=ImgRaw&r=0')">
+          </div>
+          <div id="slide7"
+            style="background-image: url('https://upload.wikimedia.org/wikipedia/it/4/4c/300_%28film%29.jpg')">
+          </div>
+          <div id="slide8"
+            style="background-image: url('https://www.themoviedb.org/t/p/original/4A9KmccvMqJA8MQzIes0G9Uobh5.jpg')">
 
-    <h1 >Restaurante el Horno</h1>
-      
-      <p >El Horno un restaurante con una apuesta por una combinación comedida,
-        pero perfectamente definida, entre la herencia campesina al carbon y
-        la cocina moderna, de una despensa rural, tanto de montaña como de litoral.</p>
+          </div>
+        </div>
+      </div>
 
-      
-  </section>
 
-    <article>
-    
-        <h1>Platos Tipicos
-        </h1>
-        <p>Usted encontrará las comidad representativas de la región Boyacense</p>
-        <p >Donde los platos que se comen se elaboraran con ingredientes de excelente calidad, nuestra especialidad es el
-          tradicional cocido Boyacense.
-        </p>
+      <main>
+        <div class="container">
 
-        <aside class="link">
-          <h3>Menú</h3>
-        <ul>
-          <li><a href="#MenuDia">Corriente</a></li>
-          <li><a href="#Cocido">Cocido Boyacense</a></li>
-          <li><a href="#CaldoCostilla">Caldo de Costilla</a></li>
-          <li><a href="#Cuchuco">Cuchuco con espinazo</a></li>
-          <li><a href="#MazamorraChiquita">Mazamorra Chiquita</a></li>
-        </ul>
-    
-      </aside>
-    </article>
+          <div class="container-flex">
+            <div class="panel"
+              style="background-image: url('https://rcdn.rolloid.net/uploads/2018/06/25-peliculas-de-gran-exito-que-deberias-ver-segun-el-ano-en-que-naciste-1528119393.jpg')">
+              <h3>Million Dollar Baby</h3>
+            </div>
+            <div class="panel"
+              style="background-image: url('https://rcdn.rolloid.net/uploads/2018/06/25-peliculas-de-gran-exito-que-deberias-ver-segun-el-ano-en-que-naciste-1528119504.jpg')">
+              <h3>El señor de los anillos: El retorno del rey</h3>
+            </div>
+            <div class="panel"
+              style="background-image: url('https://espectadores.net/wp-content/uploads/2017/05/mejores-peliculas-independientes-call-me.jpg')">
+              <h3>Call me by your name</h3>
+            </div>
+            <div class="panel"
+              style="background-image: url('https://upload.wikimedia.org/wikipedia/tr/3/31/The-da-vinci-code-hanks.jpg')">
+              <h3>El código Da Vinci</h3>
+            </div>
+            <div class="panel"
+              style="background-image: url('https://th.bing.com/th/id/OIP.outtbOTY0QMWao9dGLSmJgHaLH?pid=ImgDet&rs=1')">
+              <h3>El pianista</h3>
+            </div>
+            <div class="panel"
+              style="background-image: url('https://th.bing.com/th/id/R.e19b8a1995649bb911f9ac7ecaafcf8d?rik=gWYeSMlXJmsmSA&pid=ImgRaw&r=0')">
+              <h3>Django</h3>
+            </div>
+            <div class="panel"
+              style="background-image: url('https://upload.wikimedia.org/wikipedia/it/4/4c/300_%28film%29.jpg')">
+              <h3>300</h3>
+            </div>
+            <div class="panel"
+              style="background-image: url('https://www.themoviedb.org/t/p/original/4A9KmccvMqJA8MQzIes0G9Uobh5.jpg')">
+              <h3>John Wick 1</h3>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+      <div  id="Registro">
+        <h2>Registrate</h2><br>
+        <form action=""  class="form">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" placeholder="Nombre"><br>
+          <label for="Apellido">Apellido</label>
+          <input type="text" id="apellido" placeholder="Apellido"><br>
+          <label for="Telefono">Teléfono</label>
+          <input type="text" id="telefono" placeholder="Telefono"><br>
+          <label for="Direccion">Dirección</label>
+          <input type="text" id="direccion" placeholder="Direccion"><br>
+          <label for="Observaciones">Observaciones</label>
+          <textarea name="" id="Observaciones" cols="30" rows="10"></textarea>>
+          <button id="btnenviar" onclick="capturarDatos()">Enviar</button>
+        </div>
+        </form>
+
+
    
+  </div>
+    <script src="script/script.js"></script>
+
 </body>
 <footer>
-  <div id="copyright">Copyright&copy; 2021 - Página creada por Edith Rincon - Todos los derechos reservados</div></footer>
+  <br>
+  <br>
+
+  <div id="copyright">Copyright&copy; 2021 - Página creada por Edith Rincon - Todos los derechos reservados</div>
+</footer>
+
 </html>
